@@ -1,0 +1,15 @@
+{
+  "name": "cora-mtls-proxy",
+  "version": "1.0.0",
+  "description": "Proxy mTLS para a API Cora (Stage) — apresenta o certificado do cliente e repassa as requisições.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
